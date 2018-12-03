@@ -1,0 +1,18 @@
+
+Let's think about Eigenvalue and PCA-tech.
+
+In 2D space,(It is a good space which we can see some good properties in vitual aspect)
+If we initialize a matrix as A = [1 2; 4,3]. And the eigenvalue of this matrix is x1 = -1 ,x2 = 5; and the eigenvector is X = [1, 2](X = 5).
+And we know that a matrix is a linear transform so that we use A * X = [5,10] = 5 * [1, 2] = x2 * X.
+That means the funciton of a matrix can be subsituted by an real number (In real Number filed). 「Amazing， right？」 
+
+Actually, we get the main features of A from the X. In other words ,the eingenvectors represent the main features about a matrix.
+Take a simple example about Reduce-Dimensions.
+For a pic, we get the eigenvalues and eigenvalue about the matrix of this pic, we just use the half-eigenvalues that we can get the main pic
+(Lossing some information,but it is a simple way to Reduce-Dimensions)
+ 
+ 
+But the PCA-tech, In statistic way 「消除两个变量之间的线性相关性，不知道为啥统计学家都偏好线性模型～」.
+But if we think more about it,  An important step in PCA is SVD (It is a generalization about eigenvalue decomposition depending on the matrix is square or not).
+So thinking the words above, it is easy for us to generalize that PCA just to get the main features by adding some statistical method like normalization variables.
+ 
